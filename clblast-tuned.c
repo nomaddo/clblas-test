@@ -25,9 +25,9 @@
 // Includes the CLBlast library (C interface)
 #include <clblast_c.h>
 
-#define m SIZE
-#define n SIZE
-#define k SIZE
+#define m 1000
+#define n 1000
+#define k 1000
 
 // =================================================================================================
 
