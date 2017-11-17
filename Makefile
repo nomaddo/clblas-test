@@ -11,3 +11,7 @@ clblast: clblast-tuned.c
 
 clblas: clblas.c
 	$(CC) -o $@ $< $(FLAG) -lclBLAS
+
+test: clblas clblast
+	./clblas
+	./clblast
